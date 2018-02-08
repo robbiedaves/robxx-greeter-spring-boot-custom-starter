@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.robxx</groupId>
+    <artifactId>robxx-greeter-spring-boot-custom-starter</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+	    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>robxx-greeter</module>
+        <module>robxx-greeter-spring-boot-autoconfigure</module>
+        <module>robxx-greete-rspring-boot-starter</module>
+        <module>robxx-greeter-spring-boot-sample-app</module>
+    </modules>
+
+</project>
